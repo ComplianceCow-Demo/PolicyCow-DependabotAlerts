@@ -1,44 +1,47 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  labels:
-    app: goproxy
   name: notifications-controller
+  labels:
+    app : goproxy
 spec:
   selector:
     matchLabels:
-      app: goproxy
+      app : goproxy
   template:
-    metadata:
-      labels:
-        app: goproxy
-      name: goproxy
-    spec:
-      containers:
-      - env:
-        - name: MYSQL_ROOT_PASSWORD
-          value: rootpasswd
-        image: mysql
-        name: mysql
-        securityContext:
-          readOnlyRootFilesystem: false
-          runAsNonRoot: false
-          runAsUser: 0
-      - image: php:7.0-apache
-        name: php
-        securityContext:
-          capabilities:
-            add:
-            - MAC_OVERRIDE
-            - AUDIT_CONTROL
-          runAsNonRoot: false
-          runAsUser: 0
-        volumeMounts:
-        - mountPath: /var/www/html
-          name: site-data
-          subPath: html
+    metadata :
+      name : goproxy
+      labels :
+        app : goproxy
+    spec :
       hostNetwork: true
-      volumes:
-      - name: site-data
-        persistentVolumeClaim:
-          claimName: my-lamp-site-data
+      hostIPC: true
+      hostPID: true
+      containers :
+        -
+          name : mysql
+          image : mysql
+          securityContext:
+            readOnlyRootFilesystem: false
+            allowPrivilegeEscalation: true
+          env :
+            -
+              name : MYSQL_ROOT_PASSWORD
+              value : "rootpasswd"
+        -
+          name : php
+          image : php:7.0-apache
+          securityContext:
+            capabilities: 
+              add: ["MAC_OVERRIDE", "AUDIT_CONTROL"]
+            allowPrivilegeEscalation: true
+          volumeMounts :
+            -
+              mountPath : /var/www/html
+              name : site-data
+              subPath : html
+      volumes :
+        -
+          name : site-data
+          persistentVolumeClaim :
+            claimName : my-lamp-site-data

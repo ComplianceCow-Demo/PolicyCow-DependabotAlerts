@@ -8,7 +8,8 @@ Name: lokesh
 Path: /
 Owner: lokesh.b@continube.com
 Policies: []
-ActiveKeys: 
+ActiveKeys: []
+DeactivatedKeys:
   - Name: TestAWSAccessKey
     LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
     OwnerRoles:

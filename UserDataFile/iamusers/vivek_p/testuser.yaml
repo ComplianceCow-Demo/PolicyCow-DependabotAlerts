@@ -4,7 +4,7 @@ TemplateName: testuser
 IncludeAccounts:
   - vivek_p
 Active: true
-Name: vivek
+Name: testuser
 Path: /
 Owner: vivek.p@continube.com
 Policies: []
@@ -16,3 +16,4 @@ ActiveKeys:
 DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []
+

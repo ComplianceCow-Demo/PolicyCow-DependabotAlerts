@@ -1,0 +1,16 @@
+TemplateName: lokesh
+IncludeAccounts:
+- lokesh_b
+Active: true
+Name: lokesh
+Path: /
+Owner: lokesh.b@continube.com
+Policies: []
+ActiveKeys: []
+DeactivatedKeys:
+- Name: TestAWSAccessKey
+  LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
+  OwnerRoles:
+  - arn:aws:iam::066744120626:user/lokesh
+DeletedKeys: []
+ResourceTags: []

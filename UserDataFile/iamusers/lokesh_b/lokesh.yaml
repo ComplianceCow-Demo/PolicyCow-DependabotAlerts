@@ -13,6 +13,10 @@ ActiveKeys:
     LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
     OwnerRoles:
       - arn:aws:iam::066744120626:user/lokesh
+  - Name: TestAWSAccessKeyNew
+    LegacyAccessKeyId: AJONFDOEMSFNO32MDSKF
+    OwnerRoles:
+      - arn:aws:iam::066744120626:user/lokesh
 DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []

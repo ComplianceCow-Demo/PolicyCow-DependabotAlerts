@@ -18,6 +18,5 @@ DeactivatedKeys:
     LegacyAccessKeyId: AJONFDOEMSFNO32MDSKF
     OwnerRoles:
       - arn:aws:iam::066744120626:user/lokesh
-DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []

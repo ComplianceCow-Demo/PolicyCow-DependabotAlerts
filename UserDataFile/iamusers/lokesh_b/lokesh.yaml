@@ -11,8 +11,8 @@ Policies: []
 ActiveKeys: []
 DeactivatedKeys:
   - Name: TestAWSAccessKey
-  LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
-  OwnerRoles:
-    - arn:aws:iam::066744120626:user/lokesh
+    LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
+    OwnerRoles:
+      - arn:aws:iam::066744120626:user/lokesh
 DeletedKeys: []
 ResourceTags: []

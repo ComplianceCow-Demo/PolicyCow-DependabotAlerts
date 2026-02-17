@@ -6,7 +6,7 @@ IncludeAccounts:
 Active: true
 Name: lokesh
 Path: /
-Owner: lokesh.b@compliancecow.com
+Owner: lokesh.b@continube.com
 Policies: []
 ActiveKeys: 
   - Name: TestAWSAccessKey

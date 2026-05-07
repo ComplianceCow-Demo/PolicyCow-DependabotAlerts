@@ -22,6 +22,6 @@ ActiveKeys:
     LegacyAccessKeyId: AKIA2ASDIJHHASFIWNEF
     OwnerRoles:
       - arn:aws:iam::066744120626:user/testuser
-DeactivatedKeys:[]
+DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []

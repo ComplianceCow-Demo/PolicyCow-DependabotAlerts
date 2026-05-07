@@ -9,8 +9,7 @@ Name: testuser
 Path: /
 Owner: vivek.p@continube.com
 Policies: []
-ActiveKeys: []
-DeactivatedKeys:
+ActiveKeys: 
   - Name: TestUserAWSAccessKeyTwo
     LegacyAccessKeyId: AKIAQ7CDSFIHNEZJ5GKS
     OwnerRoles:
@@ -23,5 +22,6 @@ DeactivatedKeys:
     LegacyAccessKeyId: AKIA2ASDIJHHASFIWNEF
     OwnerRoles:
       - arn:aws:iam::066744120626:user/testuser
+DeactivatedKeys:[]
 DeletedKeys: []
 ResourceTags: []

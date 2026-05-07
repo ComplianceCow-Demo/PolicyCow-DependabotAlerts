@@ -9,7 +9,7 @@ Path: /
 Owner: lokesh.b@continube.com
 Policies: []
 ActiveKeys: 
-   - Name: TestAWSAccessKeyTwo
+  - Name: TestAWSAccessKeyTwo
     LegacyAccessKeyId: AKIAQ7CSCFISHWEIHT5V
     OwnerRoles:
       - arn:aws:iam::066744120626:user/lokesh

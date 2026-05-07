@@ -13,6 +13,6 @@ ActiveKeys:
     LegacyAccessKeyId: AKIAHPV2Z9SFJB120QL8
     OwnerRoles:
       - arn:aws:iam::066744120626:user/divya_h
-DeactivatedKeys:[]
+DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []

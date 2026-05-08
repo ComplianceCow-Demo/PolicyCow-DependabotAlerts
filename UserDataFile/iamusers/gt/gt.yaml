@@ -9,7 +9,8 @@ Name: gt
 Path: /
 Owner: praveen.kj@continube.com
 Policies: []
-ActiveKeys:
+ActiveKeys: []
+DeactivatedKeys:
   - Name: TestAWSAccessKeyNew
     LegacyAccessKeyId: AKIAAAAABBBBCCCCDDDD
     OwnerRoles:
@@ -18,6 +19,5 @@ ActiveKeys:
     LegacyAccessKeyId: AKIA1111222233334444
     OwnerRoles:
       - 'arn:aws:iam::066744120626:user/gt'
-DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []

@@ -8,12 +8,12 @@ Name: arjun_k
 Path: /
 Owner: arjun.k@continube.com
 Policies: []
-ActiveKeys: []
-DeactivatedKeys:
+ActiveKeys:
   - Name: TestAWSAccessKeyTwo
     LegacyAccessKeyId: AKIAXL2D33IYU95HCJ3E
     OwnerRoles:
       - 'arn:aws:iam::066744120626:user/arjun_k'
+DeactivatedKeys: []
 DeletedKeys: []
 ResourceTags: []
 

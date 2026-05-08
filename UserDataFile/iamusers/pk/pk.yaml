@@ -11,11 +11,11 @@ Owner: praveen.kj@continube.com
 Policies: []
 ActiveKeys: 
   - Name: TestAWSAccessKeyNew
-    LegacyAccessKeyId: AKIAQWER1234TYUI5678
+    
     OwnerRoles:
       - arn:aws:iam::066744120626:user/pk
   - Name: TestAWSAccessKey
-    LegacyAccessKeyId: AKIAPLMN0987OKIJ6543
+    
     OwnerRoles:
       - arn:aws:iam::066744120626:user/pk
 DeactivatedKeys: []

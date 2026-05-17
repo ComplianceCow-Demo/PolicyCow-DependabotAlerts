@@ -8,19 +8,20 @@ Name: lokesh
 Path: /
 Owner: lokesh.b@continube.com
 Policies: []
-ActiveKeys:
-  - Name: TestAWSAccessKeyTwo
-    LegacyAccessKeyId: AKIAS324ASFOJ23SAWQA
-    OwnerRoles:
-      - arn:aws:iam::066744120626:user/lokesh
-  - Name: TestAWSAccessKeyOne
-    LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
-    OwnerRoles:
-      - arn:aws:iam::066744120626:user/lokesh
+ActiveKeys: []
+DeactivatedKeys:
   - Name: TestAWSAccessKeyTwo
     LegacyAccessKeyId: AKIAQ7CSCFISHWEIHT5V
     OwnerRoles:
-      - arn:aws:iam::066744120626:user/lokesh
-DeactivatedKeys: []
+      - 'arn:aws:iam::066744120626:user/lokesh'
+  - Name: TestAWSAccessKeyTwo
+    LegacyAccessKeyId: AKIAS324ASFOJ23SAWQA
+    OwnerRoles:
+      - 'arn:aws:iam::066744120626:user/lokesh'
+  - Name: TestAWSAccessKeyOne
+    LegacyAccessKeyId: AKSDFSNEIQBKEENFAOIH
+    OwnerRoles:
+      - 'arn:aws:iam::066744120626:user/lokesh'
 DeletedKeys: []
 ResourceTags: []
+
